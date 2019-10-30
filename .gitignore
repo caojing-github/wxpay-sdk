@@ -1,2 +1,37 @@
-# Project exclude paths
-/target/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+.DS_Store
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+.idea/
+build/
+*.iml
+*.class
+
+target
+.classpath
+.settings/
+.project
+.DS_Store
+.idea/
+target/
